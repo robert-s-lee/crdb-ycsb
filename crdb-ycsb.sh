@@ -91,3 +91,8 @@ find $BIN -name "cockroach-*-amd64" | while read dir; do
     done
   done
 done
+
+
+_crdb cloud=gce,region=us-west1,zone=us-west1-a cloud=gce,region=us-west1,zone=us-west1-b cloud=gce,region=us-west1,zone=us-west1-c cloud=gce,region=us-east1,zone=us-east1-a cloud=gce,region=us-east1,zone=us-east1-b cloud=gce,region=us-east1,zone=us-east1-c cloud=gce,region=us-central1,zone=us-central1-a cloud=gce,region=us-central1,zone=us-central1-b cloud=gce,region=us-central1,zone=us-central1-c 
+
+_crdb cloud=gce,region=us-west1,zone=us-west1-a cloud=gce,region=us-east1,zone=us-east1-a  cloud=gce,region=us-central1,zone=us-central1-a 
