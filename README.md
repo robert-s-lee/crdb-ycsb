@@ -1,7 +1,7 @@
 # open source YCSB usage on CRDB
 
-- (batch to multi row rewrite)[https://github.com/brianfrankcooper/YCSB/pull/1220]
-- (as of system time examples)[./crdb-aost.md]
+- [batch to multi row rewrite](https://github.com/brianfrankcooper/YCSB/pull/1220)
+- [as of system time examples](./crdb-aost.md) using [test build](./ycsb-jdbc-binding-0.18.0-SNAPSHOT.tar.gz)
 
 
 # cockroach built-in ycsb client usage:
